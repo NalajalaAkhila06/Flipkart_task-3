@@ -5,10 +5,7 @@
 A Python application that fetches **real-time weather data**, displays it to the user, and securely logs every weather query into a local file.  
 The program uses the **OpenWeatherMap API**, demonstrates **API integration**, **error handling**, and **Object-Oriented Programming (OOP)** concepts.
 
----
-
 ##  Task Overview
-
 ### **Task Title:**  
 Real-Time Weather Information & Data Logger
 
@@ -27,17 +24,15 @@ The goal of this project is to create a Python program which:
 - Implements proper error handling
 - Uses OOP concepts (classes & methods)
 
----
+##  Features
 
-## 🌤️ Features
-
-### ✔ Live Weather Fetching  
+###  Live Weather Fetching  
 Retrieves up‑to‑date weather information for any city.
 
-### ✔ User-Friendly Output  
+###  User-Friendly Output  
 Displays neatly formatted weather details on the screen.
 
-### ✔ Automatic Logging  
+###  Automatic Logging  
 Stores each valid request in **weather_data.csv**, including:
 - Timestamp  
 - City  
@@ -47,7 +42,7 @@ Stores each valid request in **weather_data.csv**, including:
 - Condition  
 - Wind Speed  
 
-### ✔ Robust Error Handling  
+###  Robust Error Handling  
 Handles:
 - Invalid cities  
 - Wrong API keys  
@@ -55,7 +50,7 @@ Handles:
 - Network issues  
 - API server failures  
 
-### ✔ OOP-Based Architecture  
+###  OOP-Based Architecture  
 Organized using:
 - `Weather` class → fetch & display  
 - `logging` class → store data  
@@ -70,10 +65,7 @@ weather-app/
 │── weather_data.csv      # Auto-created log file
 │── README.md             # Documentation
 ```
-
----
-
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Install required library:
 ```bash
@@ -86,10 +78,18 @@ python main.py
 ```
 
 ### 3. Output
-```
-<img width="302" height="131" alt="Screenshot 2025-11-24 230539" src="https://github.com/user-attachments/assets/ed8cbc54-fb37-46ea-9ebf-b7a361f6a186" />
+Enter City: Nellore
 
-## 🧱 OOP Structure
+Weather in Nellore:
+ Temperature: 24.65°C
+ Feels Like: 25.18°C
+ Condition: Overcast clouds
+ Humidity: 77%
+ Wind Speed: 2.49 m/s
+
+ Weather data for Nellore stored in weather_data.csv
+
+##  OOP Structure
 ### **Weather Class**
 Handles:
 - API call  
@@ -104,12 +104,6 @@ Handles:
 ### **main() Function**
 Coordinates input and class interactions.
 
-## 🚀 Future Enhancements
 
-- SQLite database logging  
-- Graphical User Interface (GUI)  
-- Weather forecast (5-day or hourly)  
-- Web application version (Flask/FastAPI)  
-- Export logs to Excel/JSON
 
 
