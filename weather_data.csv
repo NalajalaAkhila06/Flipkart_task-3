@@ -1,6 +1,4 @@
-| Timestamp           | City    | Country | Temperature (°C) | Feels Like (°C) | Humidity (%) | Condition      | Wind Speed (m/s) |
-|---------------------|---------|---------|------------------|-----------------|--------------|---------------|------------------|
-| 2025-11-22 17:47:36 | Paris   | FR      | 0.98             | -3.77           | 97           | Mist          | 5.14             |
-| 2025-11-22 17:52:48 | Guntur  | IN      | 26.43            | 26.43           | 76           | Broken clouds | 3.25             |
-| 2025-11-19 22:21:38 | America | MX      | 24.84            | 24.87           | 57           | Overcast clouds| 2.52             |
-| 2025-11-24 23:05:20 | America | MX      | 21.21            | 20.4            | 39           | Clear sky     | 2.83             |
+Timestamp,City,Country,Temperature (°C),Feels Like (°C),Humidity (%),Condition,Wind Speed (m/s)
+2025-11-22 17:47:36,Paris,FR,0.98,-3.77,97,Mist,5.14
+2025-11-22 17:52:48,Guntur,IN,26.43,26.43,76,Broken clouds,3.25
+2025-11-19 22:21:38,America,MX,24.84,24.87,57,Overcast clouds,2.522025-11-24 23:05:20,America,MX,21.21,20.4,39,Clear sky,2.83
