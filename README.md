@@ -104,6 +104,11 @@ Handles:
 ### **main() Function**
 Coordinates input and class interactions.
 
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
+---
+## Contact
+For questions or support, please contact the project maintainer at nalajalaakhila@gmail.com
 
 
