@@ -81,10 +81,10 @@ python main.py
 Enter City: Nellore
 
 Weather in Nellore:
- Temperature: 24.65°C
- Feels Like: 25.18°C
- Condition: Overcast clouds
- Humidity: 77%
+ Temperature: 24.65°C,
+ Feels Like: 25.18°C,
+ Condition: Overcast clouds,
+ Humidity: 77%,
  Wind Speed: 2.49 m/s
 
  Weather data for Nellore stored in weather_data.csv
